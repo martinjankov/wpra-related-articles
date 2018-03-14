@@ -1,0 +1,22 @@
+.wra-related-wrapper p:empty{
+	display: none;
+}
+.wra-related-wrapper .wra-related-title, .wra-related-wrapper ul.wra-related-list {
+    display: inline;
+}
+.wra-related-wrapper .wra-related-title{
+	font-weight: bold;
+}
+.wra-related-wrapper ul.wra-related-list {
+	margin: 0px;
+	padding: 0px;
+}
+.wra-related-wrapper ul.wra-related-list li {
+    display: inline-block;
+    list-style: none;
+}
+.wra-related-wrapper ul.wra-related-list li:not(:last-child):after{
+	content: ',';
+	display: inline;
+	margin-right: 5px;
+}
